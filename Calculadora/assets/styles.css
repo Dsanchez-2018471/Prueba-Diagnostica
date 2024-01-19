@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 9, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    /*/https://cssgradient.io*/
+}
+
+.calculadora {
+    text-align: center;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    background: rgba(132, 102, 224, 0.194);
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(84, 117, 110);
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+}
+
+.foot {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+}
+
+.heather {
+    position: absolute;
+    top: 10px;
+    bottom: 5px;
+    display: flex;
+    color: aliceblue;
+    right: 5px;
+}
